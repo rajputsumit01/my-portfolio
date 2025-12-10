@@ -2,10 +2,13 @@
   "name": "sumit-portfolio",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://rajputsumit01.github.io/my-portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -19,9 +22,10 @@
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.0",
     "tailwindcss": "^3.4.0",
-    "vite": "^5.0.0"
+    "vite": "^5.0.0",
+    "gh-pages": "^5.0.0"
   },
-  "description": "```bash npm install npm run dev ```",
+  "description": "```bash npm install && npm run dev ```",
   "main": "vite.config.js",
   "keywords": [],
   "author": "",

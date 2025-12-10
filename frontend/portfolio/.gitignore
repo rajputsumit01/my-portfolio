@@ -1,0 +1,8 @@
+# Local test files
+Resume_test.pdf
+
+# Node
+node_modules/
+
+# Build
+dist/
