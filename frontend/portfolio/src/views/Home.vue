@@ -26,13 +26,23 @@
           >
             Contact Me
           </RouterLink>
-          <a
-            href="/resume.pdf"
-            download="Sumit_Resume.pdf"
-            class="bg-blue-500 text-black px-6 py-2 rounded-lg font-semibold hover:bg-blue-600 transition magnetic"
-          >
-            ↓ Download CV
-          </a>
+          <div class="flex gap-4">
+            <a
+              href="/Resume.pdf"
+              target="_blank"
+              rel="noopener"
+              class="bg-emerald-500 text-black px-6 py-2 rounded-lg font-semibold hover:bg-emerald-600 transition magnetic"
+            >
+              View CV
+            </a>
+            <a
+              href="/Resume.pdf"
+              download="Sumit_Resume.pdf"
+              class="bg-blue-500 text-black px-6 py-2 rounded-lg font-semibold hover:bg-blue-600 transition magnetic"
+            >
+              ↓ Download CV
+            </a>
+          </div>
         </div>
       </div>
 
